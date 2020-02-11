@@ -1,0 +1,12 @@
+// package import missing
+import java.util.Scanner;
+public class RewriteCode {
+	public static void main( String args[] ) {
+	    Scanner in = new Scanner( System.in );
+
+	    System.out.println( "Enter an integer between 0 and 9" );
+	    int num = in.nextInt();
+
+	    System.out.println( "You entered " + num );
+	}
+}
